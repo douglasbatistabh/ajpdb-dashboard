@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e6d2"/>
+      <stop offset="100%" stop-color="#c8b896"/>
+    </linearGradient>
+    <linearGradient id="bordeauxT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5e1a22"/>
+      <stop offset="100%" stop-color="#2e0a10"/>
+    </linearGradient>
+    <linearGradient id="ouroT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0dfa8"/>
+      <stop offset="40%" stop-color="#c9a96b"/>
+      <stop offset="100%" stop-color="#7a6038"/>
+    </linearGradient>
+    <linearGradient id="ouroEsc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a08350"/>
+      <stop offset="100%" stop-color="#5a4528"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bgT)"/>
+  <path d="M 256 113 L 425 405 L 87 405 Z" fill="url(#bordeauxT)" stroke="url(#ouroT)" stroke-width="3"/>
+  <path d="M 256 138 L 405 395 L 107 395 Z" fill="none" stroke="url(#ouroEsc)" stroke-width="0.8" opacity="0.55"/>
+  <g transform="translate(256, 312)">
+    <g transform="translate(-53, 0) scale(0.6)">
+      <path d="M -55 -100 L -55 -90 L -45 -90 L -45 90 L -55 90 L -55 100 L 5 100 C 50 100, 80 65, 80 0 C 80 -65, 50 -100, 5 -100 Z M -25 -85 L -25 85 L 0 85 C 35 85, 52 50, 52 0 C 52 -50, 35 -85, 0 -85 Z"
+        fill-rule="evenodd" fill="url(#ouroT)"/>
+    </g>
+    <g transform="translate(53, 0) scale(0.6)">
+      <path d="M -55 -100 L -55 -90 L -45 -90 L -45 90 L -55 90 L -55 100 L 5 100 C 48 100, 70 78, 70 50 C 70 25, 55 8, 35 0 C 50 -8, 60 -25, 60 -45 C 60 -78, 40 -100, 0 -100 Z M -25 -85 L -25 -10 L 0 -10 C 25 -10, 35 -25, 35 -45 C 35 -68, 22 -85, -2 -85 Z M -25 12 L -25 85 L 5 85 C 32 85, 45 70, 45 48 C 45 26, 30 12, 5 12 Z"
+        fill-rule="evenodd" fill="url(#ouroT)"/>
+    </g>
+  </g>
+  <text x="256" y="461" font-family="Georgia, 'Cinzel', serif" font-size="20" font-weight="600"
+        fill="url(#ouroEsc)" text-anchor="middle" letter-spacing="14" opacity="0.88">A·J·P·D·B</text>
+</svg>
